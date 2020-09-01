@@ -1,14 +1,24 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+lno
+);
 date = "2020-08-31 17:58:09 +0000";
 familyName = "New Font";
 fontMaster = (
 {
+alignmentZones = (
+"{800, 16}",
+"{700, 16}",
+"{518, 16}",
+"{0, -16}",
+"{-200, -16}"
+);
 ascender = 800;
 capHeight = 700;
 descender = -200;
 id = "5829B2D6-D8BD-482F-9634-613601744E82";
-xHeight = 500;
+xHeight = 518;
 }
 );
 glyphs = (
@@ -384,10 +394,22 @@ unicode = 006B;
 },
 {
 glyphname = l;
+lastChange = "2020-08-31 20:16:53 +0000";
 layers = (
 {
 layerId = "5829B2D6-D8BD-482F-9634-613601744E82";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"156 0 LINE",
+"156 716 LINE",
+"68 716 LINE",
+"68 0 LINE"
+);
+}
+);
+width = 224;
 }
 );
 unicode = 006C;
@@ -404,20 +426,97 @@ unicode = 006D;
 },
 {
 glyphname = n;
+lastChange = "2020-09-01 05:55:33 +0000";
 layers = (
 {
 layerId = "5829B2D6-D8BD-482F-9634-613601744E82";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"490 0 LINE",
+"490 309 LINE",
+"402 309 LINE",
+"402 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"156 0 LINE",
+"156 518 LINE",
+"68 518 LINE",
+"68 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"156 309 LINE",
+"156 384 OFFCURVE",
+"202 446 OFFCURVE",
+"278 446 CURVE SMOOTH",
+"356 446 OFFCURVE",
+"402 384 OFFCURVE",
+"402 309 CURVE",
+"490 309 LINE",
+"490 433 OFFCURVE",
+"411 534 OFFCURVE",
+"278 534 CURVE SMOOTH",
+"147 534 OFFCURVE",
+"68 433 OFFCURVE",
+"68 309 CURVE"
+);
+}
+);
+width = 556;
 }
 );
 unicode = 006E;
 },
 {
 glyphname = o;
+lastChange = "2020-08-31 20:16:13 +0000";
 layers = (
 {
 layerId = "5829B2D6-D8BD-482F-9634-613601744E82";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"430 -16 OFFCURVE",
+"521 107 OFFCURVE",
+"521 259 CURVE SMOOTH",
+"521 411 OFFCURVE",
+"430 534 OFFCURVE",
+"278 534 CURVE SMOOTH",
+"126 534 OFFCURVE",
+"35 411 OFFCURVE",
+"35 259 CURVE SMOOTH",
+"35 107 OFFCURVE",
+"126 -16 OFFCURVE",
+"278 -16 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"181 72 OFFCURVE",
+"123 156 OFFCURVE",
+"123 259 CURVE SMOOTH",
+"123 362 OFFCURVE",
+"181 446 OFFCURVE",
+"278 446 CURVE SMOOTH",
+"375 446 OFFCURVE",
+"433 362 OFFCURVE",
+"433 259 CURVE SMOOTH",
+"433 156 OFFCURVE",
+"375 72 OFFCURVE",
+"278 72 CURVE SMOOTH"
+);
+}
+);
+width = 556;
 }
 );
 unicode = 006F;
