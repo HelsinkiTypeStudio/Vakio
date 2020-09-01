@@ -1,7 +1,8 @@
 {
-.appVersion = "1342";
+.appVersion = "1286";
 DisplayStrings = (
-lno
+lno,
+"1"
 );
 date = "2020-08-31 17:58:09 +0000";
 familyName = "New Font";
@@ -643,9 +644,21 @@ unicode = 0030;
 },
 {
 glyphname = one;
+lastChange = "2020-09-01 19:15:04 +0000";
 layers = (
 {
 layerId = "5829B2D6-D8BD-482F-9634-613601744E82";
+paths = (
+{
+closed = 1;
+nodes = (
+"214 0 LINE",
+"316 0 LINE",
+"316 700 LINE",
+"214 700 LINE"
+);
+}
+);
 width = 600;
 }
 );
